@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $dbname = "blog_article";
-$username = "";
+$username = "root";
 $password = "";
 
 try{
@@ -10,4 +10,5 @@ try{
 }catch(PDOException $e){
     echo "Connection failed: " . $e->getMessage();
 };
+
 ?>
